@@ -3,14 +3,24 @@
     background-size: 100%;;
     padding: 20px 20px 20px 20px;
     margin-top: 20px;
-}
+    animation-name: ;
+    animation-duration: 3s; 
+    animation-timing-function: ease-in-out; 
+    animation-delay: 1s; 
+    animation-iteration-count: infinite; 
+      }
+      
+
 
 
 h1 {
    
-    color: rgb(147, 136, 250);
+    color: rgb(130, 117, 247);
     text-align:center;
-    text-shadow: 4px 4px 6px rgb(7, 7, 7);
+    text-shadow: 6px 6px 4px rgb(248, 7, 7) ;
+    transform: rotateX(50deg);
+    font-size: 500%;
+
 }
 
 
@@ -18,11 +28,16 @@ p {
 
     color:rgb(203, 205, 250);
     text-align: center;
-    text-shadow: 4px 4px 6px rgb(7, 7, 7);
+    text-shadow: 4px 4px 6px rgb(248, 7, 7);
     font-weight: bold;
+    transform:  rotateX(50deg);
+    font-size: 200%;
+    
 }
 
 body {
 
     background-color:rgb(7, 7, 7);
+    perspective: 1000px;
+
 }
